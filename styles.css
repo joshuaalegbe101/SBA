@@ -1,0 +1,205 @@
+@media (max-width: 768px) {
+    body{
+        background-color:midnightblue;
+    }
+
+    h1{
+        color:burlywood;
+    }
+}
+
+@media (min-width: 992px) {
+    body{
+        background-color: black;
+    }
+
+    h2{
+        color:aquamarine;
+    }
+
+    .navBar{
+        display:flex;
+        height:80px;
+        width:100%;
+        /*border:1pt solid limegreen;*/
+        justify-content:space-between;
+    }
+
+    .navIcon{
+        /*border:1pt solid limegreen;*/
+        height:90%;
+        width:40%;
+        margin:7px;
+        padding:0;
+    }
+
+    ul{
+        display:flex;
+        height:70%;
+    }
+    .navIcon li{
+        /*border:1pt solid lime;*/
+        width:20%;
+        margin-right:5px;
+    }
+
+    h1{
+        color:aquamarine;
+    }
+}
+
+
+
+
+
+h1, h2, h3{
+    font-family:sans-serif;
+    color:aquamarine;
+}
+
+
+.mainContainer{
+    display:flex;
+}
+
+.sidePanel{
+    /*border:1pt solid limegreen;*/
+    border-right:0.5pt solid limegreen;
+    height:100vh;
+    width:20%;
+    display:inline-block;
+    margin-right:50pt;
+    display:flex;
+    justify-content:center;
+    padding-left:3px;
+}
+
+.featured{
+    height:100vh;
+    width:55vw;
+    border-right:0.5pt solid limegreen;
+
+
+}
+.mainDisplay{
+    /*border:1pt solid limegreen;*/
+    height:50vh;
+    width:50vw;
+    display:inline-block;
+    background-image:url("https://cdn.pixabay.com/photo/2016/08/25/22/15/houston-1620802_1280.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+.sideContainers{
+    display:flex;
+
+}
+
+.subDisplay{
+    border:1pt solid limegreen;
+    display:inline-block;
+    height:50vh;
+    width:95vw;
+    display:flex;
+}
+
+.mainDesc{
+    width:50vw;
+    height:40vh;
+    margin-inline-start:2px;
+
+}
+
+#home{
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+#a1{
+    margin:30px;
+    height:60%;
+    width:20%;
+    background-image:url("Houston_Texans_flag.gif");
+    background:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#a2{
+    margin:30px;
+    height:60%;
+    width:20%;
+    background-image:url("horse.jpeg");
+    background:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#a3{
+    margin:30px;
+    height:60%;
+    width:20%;
+    background-image:url("astros.jpeg");
+    background:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.items{
+    width:20%;
+    height:70%;
+
+}
+
+a{
+    color:aquamarine;
+    font-size:large;
+}
+
+#events{
+    align-content:center;
+
+}
+
+#log{
+    display:flex;
+}
+
+.login{
+    margin-left:auto;
+}
+
+#upcoming{
+    text-decoration:underline;
+}
+
+.calendar-table td, .calendar-table th {
+    width:100px;
+    height:300px;
+    vertical-align:middle;
+}
+.form-control{
+    width:70vw;
+}
+
+#emailHelp{
+    color:aquamarine;
+}
+
+form{
+    color:aquamarine;
+}
+
+.schedule{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+
+.loginContainer{
+    display:flex;
+    justify-content:center;;
+}
