@@ -57,6 +57,10 @@ h1, h2, h3{
     color:aquamarine;
 }
 
+h3{
+    font-size:x-large;
+}
+
 
 .mainContainer{
     display:flex;
@@ -99,11 +103,11 @@ h1, h2, h3{
 }
 
 .subDisplay{
-    border:1pt solid limegreen;
     display:inline-block;
     height:50vh;
     width:95vw;
     display:flex;
+    justify-content:center;
 }
 
 .mainDesc{
@@ -164,6 +168,10 @@ a{
 
 }
 
+#list{
+    color:aquamarine;
+}
+
 #log{
     display:flex;
 }
@@ -203,3 +211,4 @@ form{
     display:flex;
     justify-content:center;;
 }
+
